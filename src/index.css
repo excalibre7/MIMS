@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'Mando';
+  src: local('Mando'), url(./font/mandalorelaserrough.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Work';
+  src: local('Work'), url(./font/WorkSans-VariableFont_wght.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: local('Nuntito'), url(./font/Nunito-VariableFont_wght.ttf) format('truetype');
+}

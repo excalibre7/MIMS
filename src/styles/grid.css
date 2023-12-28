@@ -1,0 +1,42 @@
+.ag-theme-alpine {
+  /* use theme parameters where possible */
+  --ag-foreground-color: #31639c;
+  --ag-background-color: transparent;
+  --ag-header-background-color: transparent;
+  --ag-borders: "false";
+  --ag-border-color: transparent;
+  --ag-control-panel-background-color: #ffffff;
+  --ag-range-selection-border-color:transparent;
+  /* --ag-column-hover-color: grey,
+  --ag-modal-overlay-background-color: #ffffff; */
+}
+
+div .ag-header-cell-label .ag-header-cell-text {
+  font-size: 1.3rem !important;
+  font-weight: bold;
+  transition: .5s;
+  color: #f5e86e;
+  font-family: "Nunito";
+}
+
+div .ag-header-cell-label .ag-header-cell-text:hover{
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+div.ag-theme-alpine div.ag-row {
+  font-size: 1.2rem !important;
+  transition: .5s!important;
+  font-family: "Nunito";
+  color: #f5e86e;
+}
+
+div.ag-theme-alpine div.ag-row:hover {
+  cursor: pointer;
+  /* box-shadow: 0.2rem 0.2rem .3rem #d5f30d inset, -0.1rem -0.1rem .3rem #d5f30d inset !important;
+  border-radius: 10; */
+}
+
+.headerclassnumber {
+  text-align: center !important;
+}
